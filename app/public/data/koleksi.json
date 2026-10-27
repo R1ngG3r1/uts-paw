@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Lidah Mertua",
+    "kategori": "Daun",
+    "namaLatin": "Dracaena trifasciata",
+    "frekuensiSiram": 1,
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "2",
+    "judul": "Sri Rejeki",
+    "kategori": "Daun",
+    "namaLatin": "Aglaonema commutatum",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "teduh"
+  },
+  {
+    "id": "3",
+    "judul": "Janda Bolong",
+    "kategori": "Daun",
+    "namaLatin": "Monstera adansonii",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "4",
+    "judul": "Sirih Gading",
+    "kategori": "Daun",
+    "namaLatin": "Epipremnum aureum",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "5",
+    "judul": "Anggrek Bulan",
+    "kategori": "Bunga",
+    "namaLatin": "Phalaenopsis amabilis",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "teduh"
+  },
+  {
+    "id": "6",
+    "judul": "Peace Lily",
+    "kategori": "Bunga",
+    "namaLatin": "Spathiphyllum wallisii",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "teduh"
+  },
+  {
+    "id": "7",
+    "judul": "Lidah Buaya",
+    "kategori": "Sukulen",
+    "namaLatin": "Aloe vera",
+    "frekuensiSiram": 1,
+    "kebutuhanCahaya": "penuh"
+  },
+  {
+    "id": "8",
+    "judul": "Kaktus Zebra",
+    "kategori": "Sukulen",
+    "namaLatin": "Haworthia attenuata",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "9",
+    "judul": "Pakis Boston",
+    "kategori": "Gantung",
+    "namaLatin": "Nephrolepis exaltata",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "10",
+    "judul": "Wijayakusuma",
+    "kategori": "Sukulen",
+    "namaLatin": "Epiphyllum oxypetalum",
+    "frekuensiSiram": 2,
+    "kebutuhanCahaya": "sedang"
   }
 ]
