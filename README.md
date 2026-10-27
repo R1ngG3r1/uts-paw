@@ -69,7 +69,7 @@ Nama: Hafidz Raihan Putra Anfa
 NIM: 124140108
 Kelas: RA
 Tema: Koleksi Tanaman Hias
-Deployment: https://USERNAME.github.io/uts-paw/
+Deployment: https://r1ngg3r1.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
