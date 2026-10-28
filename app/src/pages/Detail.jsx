@@ -30,11 +30,11 @@ export default function Detail() {
       <dl>
         <dt>Kategori</dt>
         <dd>{item.kategori}</dd>
-        <dt>namaLatin</dt>
+        <dt>Nama Latin</dt>
         <dd>{item.namaLatin}</dd>
-        <dt>frekuensiSiram</dt>
+        <dt>Frekuensi Siram</dt>
         <dd>{item.frekuensiSiram}x seminggu</dd>
-        <dt>kebutuhanCahaya</dt>
+        <dt>Kebutuhan Cahaya</dt>
         <dd>{item.kebutuhanCahaya}</dd>
       </dl>
       <div className="aksi">
