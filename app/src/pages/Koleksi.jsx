@@ -23,7 +23,7 @@ export default function Koleksi() {
 
   return (
     <section>
-      <h1>Koleksi</h1>
+      <h1>Koleksi Tanamana</h1>
       <div className="alat-koleksi">
         <KotakPencarian nilai={cari} onUbah={setCari} />
         <select
@@ -37,7 +37,7 @@ export default function Koleksi() {
         </select>
       </div>
       {tampil.length === 0 ? (
-        <p>Tidak ada item yang cocok.</p>
+        <p>Tidak ada tanaman yang cocok.</p>
       ) : (
         <div className="daftar-kartu">
           {tampil.map((item) => (
