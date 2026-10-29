@@ -25,9 +25,10 @@ export function KoleksiProvider({ children }) {
 
   const tambah = (item) => setItems((lama) => [...(lama ?? []), { ...item, id: String(Date.now()) }])
   const hapus = (id) => setItems((lama) => lama.filter((item) => item.id !== id))
+  const reset = () => setItems([])
 
   return (
-    <KoleksiContext.Provider value={{ items: items ?? [], loading, error, tambah, hapus }}>
+    <KoleksiContext.Provider value={{ items: items ?? [], loading, error, tambah, hapus, reset }}>
       {children}
     </KoleksiContext.Provider>
   )

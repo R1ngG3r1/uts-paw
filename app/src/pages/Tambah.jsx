@@ -8,7 +8,7 @@ const AWAL = {
   kategori: "Daun",
   namaLatin: "",
   frekuensiSiram: "",
-  kebutuhanCahaya: "",
+  kebutuhanCahaya: "Tinggi",
 };
 
 export default function Tambah() {

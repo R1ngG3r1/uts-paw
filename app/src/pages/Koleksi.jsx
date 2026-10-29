@@ -2,14 +2,22 @@ import { useState } from "react";
 import useKoleksi from "../hooks/useKoleksi.js";
 import KotakPencarian from "../components/KotakPencarian.jsx";
 import KartuItem from "../components/KartuItem.jsx";
+import ResetItem from "../components/ResetItem.jsx";
 
 export default function Koleksi() {
-  const { items, loading, error } = useKoleksi();
+  const { items, loading, error, reset } = useKoleksi();
   const [cari, setCari] = useState("");
   const [kategori, setKategori] = useState("Semua");
 
   if (loading) return <p>Memuat data...</p>;
   if (error) return <p role="alert">Gagal memuat: {error}</p>;
+
+  const konfirmasiReset = () => {
+  if (window.confirm("Hapus semua tanaman?")) {
+    reset();
+  }
+};
+
 
   const daftarKategori = [
     "Semua",
@@ -35,6 +43,7 @@ export default function Koleksi() {
             <option key={k}>{k}</option>
           ))}
         </select>
+         <ResetItem reset={konfirmasiReset} />
       </div>
       {tampil.length === 0 ? (
         <p>Tidak ada tanaman yang cocok.</p>
