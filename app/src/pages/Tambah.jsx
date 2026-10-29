@@ -16,6 +16,7 @@ export default function Tambah() {
   const navigate = useNavigate()
   const [form, setForm] = useState(AWAL);
   const [galat, setGalat] = useState('')
+  
   const ubah = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
   const simpan = (e) => {
