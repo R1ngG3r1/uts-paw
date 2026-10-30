@@ -14,12 +14,14 @@
 ![Halaman koleksi](docs/koleksi.png)
 ### Detail
 ![Halaman detail](docs/detail.png)
+### Tambah
+![Halaman tambah](docs/tambah.png)
 ### Statistik
 ![Halaman statistik](docs/statistik.png)
 ### Tentang
 ![Halaman tentang](docs/tentang.png)
 ### Tidak Ditemukan
-![Halaman tidakditemukan](docs/tambah.png)
+![Halaman tidakditemukan](docs/tidakditemukan.png)
 
 ## Fitur
 
