@@ -2,17 +2,23 @@
 
 ## Koleksi Tanaman Hias
 
-Nama      : Hafidz Raihan Putra Anfa
-NIM       : 124140108
-Kelas     : RA
-Tema      : Koleksi Tanaman Hias
-Deployment: https://r1ngg3r1.github.io/uts-paw/
+- **Nama**: Hafidz Raihan Putra Anfa
+- **NIM**: 124140108
+- **Kelas**: RA
+- **Tema**: Koleksi Tanaman Hias
+- **Deployment**: https://r1ngg3r1.github.io/uts-paw/
 
+### Beranda
 ![Halaman Beranda](docs/beranda.png)
+### Koleksi
 ![Halaman koleksi](docs/koleksi.png)
+### Detail
 ![Halaman detail](docs/detail.png)
+### Statistik
 ![Halaman statistik](docs/statistik.png)
+### Tentang
 ![Halaman tentang](docs/tentang.png)
+### Tidak Ditemukan
 ![Halaman tidakditemukan](docs/tambah.png)
 
 ## Fitur
@@ -43,4 +49,4 @@ npm run dev
 - React Hook Usecontect: Untuk memudahkan akses data global
 - Fetc API dan Asyn/Wait: Untuk mengambil data dari koleksi.json
 - React-Router : Untuk pengelolaan navigasi menjadi lebih mudah (Link, Navlink, USeparams)
-```
+
