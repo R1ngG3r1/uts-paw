@@ -46,7 +46,7 @@ export default function Koleksi() {
          <ResetItem reset={konfirmasiReset} />
       </div>
       {tampil.length === 0 ? (
-        <p>Tidak ada tanaman yang cocok.</p>
+        <p>Tidak ada tanaman ditemukan.</p>
       ) : (
         <div className="daftar-kartu">
           {tampil.map((item) => (
