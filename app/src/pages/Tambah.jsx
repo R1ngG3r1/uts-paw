@@ -81,9 +81,7 @@ export default function Tambah() {
         </select>
 
         <button type="submit">Simpan</button>
-        <p>Isi state saat ini: {JSON.stringify(form)}</p>
       </form>
-      )
     </section>
   );
 }
