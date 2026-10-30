@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: wheat ;
 }
 
 .kepala {
@@ -9,12 +10,25 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  background-color: bisque;
 }
 
 .menu {
   display: flex;
   gap: 1rem;
 }
+
+.menu a{
+  text-decoration: none;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.menu a:hover{
+  background-color: blanchedalmond;
+}
+
 
 .menu a.active {
   font-weight: 600;
@@ -30,8 +44,8 @@
 
 .kaki {
   padding: 1rem 1.5rem;
-  border-top: 1px solid #dcdcdc;
-  color: #57606a;
+  border-top: 1px solid black;
+  color: black;
   font-size: 0.9rem;
 }
 
@@ -64,8 +78,9 @@
 
 .kartu {
   padding: 1rem;
-  border: 1px solid #dcdcdc;
+  border: 1px solid black;
   border-radius: 8px;
+  background-color: burlywood;
 }
 
 .kartu h3 {
@@ -73,9 +88,13 @@
   font-size: 1.05rem;
 }
 
+.kartu a {
+  color: brown;
+}
+
 .kartu p {
   margin: 0;
-  color: #57606a;
+  color: white;
 }
 
 .alat-koleksi {
@@ -91,6 +110,32 @@
   border: 1px solid #c4c4c4;
   border-radius: 6px;
   font: inherit;
+}
+
+#Reset-Item{
+  background-color: red;
+  border: black solid 1px;
+  border-radius: 5px;
+}
+
+#Reset-Item:hover{
+  transform: scale(1.02);
+}
+
+#Sebelum-Favorit {
+ background-color: white;
+ border: black solid 1px;
+ border-radius: 5px;
+}
+
+#Sebelum-Favorit:hover {
+  background-color: rgb(15, 211, 15);
+}
+
+#Sesudah-Favorit {
+ background-color: rgb(15, 211, 15);
+ border: black solid 1px;
+ border-radius: 5px;
 }
 
 @media (max-width: 768px) {

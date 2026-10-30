@@ -6,12 +6,13 @@
   width: 100%;
   max-width: 480px;
   border-collapse: collapse;
+  border: black solid 1px;
 }
 
 .tabel-data th,
 .tabel-data td {
   padding: 0.5rem 0.75rem;
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid black;
   text-align: left;
 }
 
